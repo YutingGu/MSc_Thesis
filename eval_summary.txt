@@ -1,0 +1,116 @@
+--------------------------------------
+Exploratory Data Analysis
+--------------------------------------
+the overall taste distribution of all users: H:26.97%, M:57.07%, T:15.96%
+
+user group 1 average taste distribution: H:45.93%, M:46.93%, T:7.14%
+user group 2 average taste distribution: H:25.50%, M:59.97%, T:14.53%
+user group 3 average taste distribution: H:12.42%, M:58.52%, T:29.06%
+
+
+--------------------------------------
+ALS
+--------------------------------------
+[overall] ARP@10: 0.6893, Agg-Div@10: 0.0696
+[G1] ARP@10: 0.7348, Agg-Div@10: 0.0370
+[G2] ARP@10: 0.6952, Agg-Div@10: 0.0594
+[G3] ARP@10: 0.6262, Agg-Div@10: 0.0666
+
+G1 UDP:0.2294
+G2 UDP:0.3299
+G3 UDP:0.3700
+--------------------------------------
+VAE_CF 
+--------------------------------------
+(holdout users)
+Finish testing.
+Test NDCG@100=0.4299
+Test Recall@20=0.3589
+Test Recall@50=0.4542
+
+(holdout ratings)
+Finish testing.
+Test NDCG@100=0.1431
+Test Recall@20=0.1406
+Test Recall@50=0.2669
+
+ARP@10: 0.2005, Agg-Div@10: 0.3613
+
+G1 to G3
+ARP@10: 0.1921, Agg-Div@10: 0.1989
+ARP@10: 0.2060, Agg-Div@10: 0.3060
+ARP@10: 0.1913, Agg-Div@10: 0.1913
+
+G1 UDP:0.1205
+G2 UDP:0.0591
+G3 UDP:0.0550
+--------------------------------------
+ml_1m_holdout_user_LT_GAN_0.1_0.0001
+--------------------------------------
+Test NDCG@100=0.6148
+Test Recall@20=0.5419
+Test Recall@50=0.6384
+
+ARP@10: 0.3816, Agg-Div@10: 0.4679
+
+G1 to G3
+ARP@10: 0.3737, Agg-Div@10: 0.2580
+ARP@10: 0.3803, Agg-Div@10: 0.3821
+ARP@10: 0.3941, Agg-Div@10: 0.2288
+
+G1 UDP:0.0624
+G2 UDP:0.0820
+G3 UDP:0.1506
+--------------------------------------
+ml_1m_holdout_user_LT_GAN_1.0_0.0001
+--------------------------------------
+Test NDCG@100=0.6218
+Test Recall@20=0.5444
+Test Recall@50=0.6420
+
+ARP@10: 0.3630, Agg-Div@10: 0.4609
+
+G1 to G3
+ARP@10: 0.3509, Agg-Div@10: 0.2582
+ARP@10: 0.3716, Agg-Div@10: 0.3743
+ARP@10: 0.3512, Agg-Div@10: 0.2299
+
+G1 UDP:0.0631
+G2 UDP:0.0811
+G3 UDP:0.1399
+--------------------------------------
+ml_1m_holdout_user_LT_GAN_10.0_0.0001
+--------------------------------------
+Test NDCG@100=0.6169
+Test Recall@20=0.5498
+Test Recall@50=0.6423
+
+
+ARP@10: 0.3084, Agg-Div@10: 0.4355
+
+G1 to G3
+ARP@10: 0.2999, Agg-Div@10: 0.2601
+ARP@10: 0.3140, Agg-Div@10: 0.3724
+ARP@10: 0.3012, Agg-Div@10: 0.2423
+
+G1 UDP:0.0811
+G2 UDP:0.0660
+G3 UDP:0.1194
+--------------------------------------
+ml_1m_holdout_user_LT_GAN_100.0_0.0001
+--------------------------------------
+Test NDCG@100=0.4959
+Test Recall@20=0.4228
+Test Recall@50=0.5458
+
+
+ARP@10: 0.2394, Agg-Div@10: 0.3160
+
+G1 to G3
+ARP@10: 0.2358, Agg-Div@10: 0.2129
+ARP@10: 0.2413, Agg-Div@10: 0.2858
+ARP@10: 0.2380, Agg-Div@10: 0.2016
+
+G1 UDP:0.1964
+G2 UDP:0.1356
+G3 UDP:0.1483
