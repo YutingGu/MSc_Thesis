@@ -20,19 +20,19 @@ G1 UDP:0.2294
 G2 UDP:0.3299
 G3 UDP:0.3700
 --------------------------------------
-VAE_CF 
+VAE_CF (holdout ratings)
 --------------------------------------
-(holdout users)
-Finish testing.
-Test NDCG@100=0.4299
-Test Recall@20=0.3589
-Test Recall@50=0.4542
-
-(holdout ratings)
 Finish testing.
 Test NDCG@100=0.1431
 Test Recall@20=0.1406
 Test Recall@50=0.2669
+--------------------------------------
+VAE_CF (holdout users)
+--------------------------------------
+Finish testing.
+Test NDCG@100=0.4299
+Test Recall@20=0.3589
+Test Recall@50=0.4542
 
 ARP@10: 0.2005, Agg-Div@10: 0.3613
 
