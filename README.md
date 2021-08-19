@@ -16,7 +16,7 @@ Then, [process_rawdata.ipynb](process_rawdata.ipynb) is used to split dataset(wi
 ### ALS
 In order to run the experiments for ALS-MF, please use the [ALS.ipynb](ALS/ALS.ipynb) file under the first level directory ALS. Test section is alse include in this file.
 ### VAE-CF
-In order to run the experiments for VAE-CF, please use the [VAE_CF(holdout ratings).ipynb](VAE_CF/VAE_CF(holdout\ ratings).ipynb) and [VAE_CF(holdout users).ipynb](VAE_CF/VAE_CF(holdout\ users).ipynb). Test section is alse include in this file.
+In order to run the experiments for VAE-CF, please use the [VAE_CF(holdout_ratings).ipynb](VAE_CF/VAE_CF(holdout_ratings).ipynb) and [VAE_CF(holdout_users).ipynb](VAE_CF/VAE_CF(holdout_users).ipynb). Test section is alse include in this file.
 ### Long-tail GAN
 In order to run the experiments for long-tail GAN, please use the following commend lines to run the experiments.
 For training:
