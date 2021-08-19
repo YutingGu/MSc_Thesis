@@ -4,8 +4,8 @@
 - The implementation of VAE-CF is modified from (https://github.com/dawenl/vaecf)
 - The implementation of Long-tail GAN is modified from (https://github.com/CrowdDynamicsLab/NCF-GAN)
 
-## The working diractory are stored in the following structure(basically). 
-
+## Experiments
+### Setup Environment
 First of all, install all the required packages using 
 ```
 conda install numpy=1.16.0 tensorflow-gpu=1.14.0 scikit-learn=0.23.1 seaborn=0.11.1 matplotlib=3.3.2 pandas=1.1.3 bottleneck=1.3.2 psutil=5.8.0 scipy=1.5.2 configparser=5.0.2
