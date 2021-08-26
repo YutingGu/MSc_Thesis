@@ -13,7 +13,7 @@ conda install numpy=1.16.0 tensorflow-gpu=1.14.0 scikit-learn=0.23.1 seaborn=0.1
 ```
 ### Dataset Processing
 Before running the experiments, please check if the dataset exists in the first level directory [raw_data](raw_data/). As long as the dataset exist, the [DataConvert_dat_to_csv.ipynb](DataConvert_dat_to_csv.ipynb) can be used for dataset converting.
-Then, [process_rawdata.ipynb](process_rawdata.ipynb) is used to split dataset(with holdout ratings) by first approach and generated different group of users. The second approach is implemented together with [VAE_CF(holdout users).ipynb](VAE_CF/VAE_CF(holdout users).ipynb)
+Then, [process_rawdata.ipynb](process_rawdata.ipynb) is used to split dataset(with holdout ratings) by first approach and generated different group of users. The second approach is implemented together with [VAE_CF(holdout users).ipynb](VAE_CF/VAE_CF(holdout_users).ipynb)
 ### ALS
 In order to run the experiments for ALS-MF, please use the [ALS.ipynb](ALS/ALS.ipynb) file under the first level directory ALS. Test section is alse include in this file.
 ### VAE-CF
