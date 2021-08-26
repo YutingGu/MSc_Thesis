@@ -6,7 +6,7 @@
 - The implementation of Long-tail GAN is modified from (https://github.com/CrowdDynamicsLab/NCF-GAN)
 
 ## Final Dissertation
-The final version of dissertation can be found [here](Final_dissertation.pdf), which all the explanation and figures are presented to show own work.
+The final version of dissertation can be found [here](Final_Dissertation.pdf), which all the explanation and figures are presented to show own work.
 
 ## Experiments
 ### Setup Environment
