@@ -1,5 +1,6 @@
 # Master Thesis: Popularity Bias and Fairness in Recommendation
 
+## Acknowledgment
 - The implementation of ALS is modified from (https://github.com/tushushu/imylu/tree/master/imylu/recommend)
 - The implementation of VAE-CF is modified from (https://github.com/dawenl/vaecf)
 - The implementation of Long-tail GAN is modified from (https://github.com/CrowdDynamicsLab/NCF-GAN)
