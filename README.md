@@ -5,6 +5,9 @@
 - The implementation of VAE-CF is modified from (https://github.com/dawenl/vaecf)
 - The implementation of Long-tail GAN is modified from (https://github.com/CrowdDynamicsLab/NCF-GAN)
 
+## Final Dissertation
+The final version of dissertation can be found [here](Final_dissertation.pdf), which all the explanation and figures are presented to show own work.
+
 ## Experiments
 ### Setup Environment
 First of all, install all the required packages using 
